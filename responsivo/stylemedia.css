@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+}
+
+.teste3 {
+    background-color: #999999;
+    width: 600px;
+    height: 300px;
+}
+
+@media only screen and (min-width:200px) and (max-width:600px) {
+
+    .teste3 {
+        width: 200px;
+    }
+
+}
