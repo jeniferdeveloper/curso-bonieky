@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    background-color: #eee;
+}
+
+form {
+    width: 200px;
+    padding: 30px;
+    background:#ddd;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+}
+
+input {
+    font-size: 13px;
+}
