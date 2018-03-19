@@ -1,0 +1,93 @@
+  body {
+      margin: 0;
+  }
+
+  h1 {
+      color: #ff0000
+  }
+
+  img {
+      width: 200px;
+  }
+
+  #titulo {
+      font-size: 12px;
+  }
+
+  .teste2 {
+      background-color: #ffff00;
+  }
+
+  .div {
+      width: 100%;
+      height: 100px;
+      background-color: #ff0000;
+  }
+
+  .menu {
+      width: 200px;
+      height: 300px;
+      float: left;
+  }
+
+  .conteudo {
+      width: 500px;
+      height: 300px;
+      background-color: #00ff00;
+      float: right;
+  }
+
+
+  .teste {
+      background-color: #999999;
+      width: 600px;
+      height: 300px;
+      border: 5px solid #000000;
+      border-radius: 10px;
+      color: #ffffff;
+
+  }
+
+  img {
+      border: 2px solid #000000;
+      border-radius: 10px;
+  }
+
+  .texto {
+      width: 300px;
+      height: 100px;
+      background-color: dimgray;
+      color: black;
+      font-size: 40px;
+      font-family: 'Times New Roman', Times, serif;
+      font-weight: ;
+      text-align: ;
+      text-transform: ;
+      text-decoration: ;
+      Box model margin: ;
+      margin-top: ;
+      padding-top: ;
+      margin-bottom: 10px;
+      margin-left: ;
+      margin-right: ;
+      margin: ;
+      display: block;
+  }
+
+  .flutuante {
+      height: 100px;
+      position: fixed;
+      right: 0px;
+      top: 0px;
+  }
+
+  a {
+      color: #000000;
+      text-decoration: none;
+  }
+
+  a:hover {
+      text-decoration: underline;
+      text-transform: uppercase;
+  }
+
