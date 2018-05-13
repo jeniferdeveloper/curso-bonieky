@@ -1,0 +1,6 @@
+nome = Jenifer
+idade = 24
+caracteristicas: alegre, feliz, carinhoso.
+
+mostrar na tela: 
+    Meu me chamo NOME e tenho IDADE anose sou CARACTERISTICAS 2
