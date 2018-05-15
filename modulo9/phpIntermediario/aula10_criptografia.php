@@ -8,7 +8,7 @@
     echo "Nome criptografado: {$nome2} <br/>";
 
     $nome = "Jenifer";
-    // reversivel
+    // reversivel encode = codifica
     $nome2 = base64_encode($nome);
     
     echo "Nome original: {$nome} <br/>";
@@ -18,6 +18,7 @@
 
     $codigo = "SmVuaWZlcg==";
 
+    //decode = decodifica
     echo "Texto original é: ".base64_decode($codigo);
 
 ?>
