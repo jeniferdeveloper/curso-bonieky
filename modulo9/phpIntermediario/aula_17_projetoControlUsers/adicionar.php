@@ -16,7 +16,7 @@
         $sql = "INSERT INTO usuarios SET nome = '$nome', email = '$email', senha = '$senha'";
         $pdo->query($sql);        
        
-        header("Location: aula_17_controlUser.php");
+        header("Location: index.php");
     }
 
 ?>

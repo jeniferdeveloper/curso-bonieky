@@ -27,7 +27,7 @@
                 $sql = "UPDATE usuarios SET nome = '$nome', email = '$email' WHERE id = '$id'";
                 $sql = $pdo->query($sql); 
 
-                header("Location: aula_17_controlUser.php");
+                header("Location: index.php");
             }    
 
     $sql = "SELECT * FROM usuarios WHERE id = '$id' ";
@@ -37,7 +37,7 @@
                 $dado = $sql->fetch();
             } else{
 
-            header("Location: aula_17_controlUser.php");
+            header("Location: index.php");
             }   
     }
 

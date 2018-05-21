@@ -14,11 +14,11 @@
         $sql = "DELETE FROM usuarios WHERE id = '$id' ";
         $pdo->query($sql);  
 
-        header("Location: aula_17_controlUser.php");
+        header("Location: index.php");
         
     } else {  
        
-        header("Location: aula_17_controlUser.php");
+        header("Location: index.php");
     }
 
 ?>
