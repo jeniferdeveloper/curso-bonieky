@@ -1,4 +1,4 @@
-<pre>
+<!-- <pre> -->
 <?php
 
 //mostra na tela se esta funcionando o envio
@@ -11,23 +11,35 @@ if(isset($_FILES['arquivo'])) {
 
     // //Envio de multiplos arquivos
     // $nome = $_FILES['arquivo']['name']; //array
+// echo "URL: {}";
+    try{
+        if(count($_FILES['arquivo']['tmp_name']) > 0) {
 
-    if(count($_FILES['arquivo']['tmp_name']) > 0) {
+            for ($q = 0; $q < count($_FILES['arquivo']['tmp_name']); $q++) {
+    
+               $nomeArquivo = md5($_FILES['arquivo']['tmp_name'][$q].time());
+    
+               $move = move_uploaded_file($_FILES['arquivo']['tmp_name'][$q],'/var/www/html/Boni/modulo9/phpIntermediario/arquivos/'.$nomeArquivo);
 
-        for ($q = 0; $q < count($_FILES['arquivo']['tmp_name']); $q++) {
-
-            $nomeArquivo = md5($_FILES['arquivo']['tmp_name'][$q].time());
-
-            move_uploaded_file($_FILES['arquivo']['tmp_name'][$q],'/var/www/html/Boni/modulo9/phpIntermediario/arquivos/'.$nomeArquivo);
+               if (!$move) {
+                throw new Exception("File Didnt Upload {$_FILES['arquivo']['tmp_name'][$q]}");
+             }
+                  //ok if got here
+    echo "Upload Complete!";
+            }
         }
+ 
+    } catch (Exception $e) {
+        die ('File did not upload: ' . $e->getMessage());
+
     }
 
-
+       
+    
 }
 
-
 ?>
-</pre>
+<!-- </pre> -->
 
 <!DOCTYPE html>
 <html lang="en">

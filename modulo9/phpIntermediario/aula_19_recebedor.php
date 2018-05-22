@@ -12,7 +12,7 @@ if(isset($arquivo['tmp_name']) && !empty($arquivo['tmp_name'])){
     $nomedoarquivo = md5(time());
 
     // $arquivo['tpm_name'] = recebe o arquivo temporario, 'arquivos/'.$arquivo['name'] = destino do arquivo e o nome
-    move_uploaded_file($arquivo['tmp_name'],'/var/www/html/Boni/modulo9/phpIntermediario/'.$nomedoarquivo);
+    move_uploaded_file($arquivo['tmp_name'],'/var/www/html/Boni/modulo9/phpIntermediario/arquivos/'.$nomedoarquivo);
 
     echo "Arquivo enviado com sucesso!";
 
