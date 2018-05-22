@@ -63,12 +63,6 @@ if($sql->rowCount() > 0) {
     echo "Não há mensagens.";
 }
 
-?>
-
-
-
-
-
-    
+?>    
 </body>
 </html>
