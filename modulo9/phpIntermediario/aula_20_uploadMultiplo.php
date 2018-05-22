@@ -11,7 +11,7 @@ if(isset($_FILES['arquivo'])) {
 
     // //Envio de multiplos arquivos
     // $nome = $_FILES['arquivo']['name']; //array
-// echo "URL: {}";
+
     try{
         if(count($_FILES['arquivo']['tmp_name']) > 0) {
 
@@ -25,16 +25,14 @@ if(isset($_FILES['arquivo'])) {
                 throw new Exception("File Didnt Upload {$_FILES['arquivo']['tmp_name'][$q]}");
              }
                   //ok if got here
-    echo "Upload Complete!";
+             echo "Upload Complete!";
             }
         }
  
     } catch (Exception $e) {
         die ('File did not upload: ' . $e->getMessage());
 
-    }
-
-       
+    }     
     
 }
 
