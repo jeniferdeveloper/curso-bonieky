@@ -1,0 +1,8 @@
+# liga o Rewrite
+RewriteEngine On
+
+# ignorar arquivos reais e pastas !-f (nega tudo o q for um arquivo) d (diretorio)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^(.*)$ /index.php?post=$1 [L]
