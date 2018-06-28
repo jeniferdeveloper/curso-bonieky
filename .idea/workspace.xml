@@ -14,14 +14,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/modulo12/phpAvancado/aula20/index.php">
+        <entry file="file://$PROJECT_DIR$/modulo12/phpAvancado/aula21/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="39" column="26" lean-forward="false" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
+            <state relative-caret-position="60">
+              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding>
-                <marker date="1530148635230" expanded="true" signature="767:780" ph="SELECT * FRO... " />
-                <marker date="1530148635230" expanded="true" signature="767:824" ph="SELECT * FRO... usuarios" />
-                <marker date="1530148635230" expanded="true" signature="767:840" ph="SELECT * FRO... usuarios" />
+                <marker date="1530150450020" expanded="true" signature="615:637" ph="SELECT * FRO... usuarios" />
               </folding>
             </state>
           </provider>
@@ -38,6 +36,7 @@
         <option value="$PROJECT_DIR$/modulo12/phpAvancado/aula18/index.php" />
         <option value="$PROJECT_DIR$/modulo12/phpAvancado/aula18/logs.class.php" />
         <option value="$PROJECT_DIR$/modulo12/phpAvancado/aula20/index.php" />
+        <option value="$PROJECT_DIR$/modulo12/phpAvancado/aula21/index.php" />
       </list>
     </option>
   </component>
@@ -51,9 +50,7 @@
     <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 7" />
-  <component name="ProjectFrameBounds">
-    <option name="x" value="251" />
-    <option name="y" value="28" />
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="width" value="655" />
     <option name="height" value="319" />
   </component>
@@ -72,6 +69,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -96,13 +94,12 @@
               <item name="Boni" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="modulo12" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="phpAvancado" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="aula20" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="aula21" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -142,18 +139,20 @@
       <workItem from="1530140432642" duration="209000" />
       <workItem from="1530140721832" duration="585000" />
       <workItem from="1530144193297" duration="2091000" />
-      <workItem from="1530147407683" duration="1216000" />
+      <workItem from="1530147407683" duration="2579000" />
+      <workItem from="1530150178043" duration="127000" />
+      <workItem from="1530150471568" duration="117000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7516000" />
+    <option name="totallyTimeSpent" value="9123000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="251" y="28" width="655" height="319" extended-state="0" />
+    <frame x="0" y="0" width="1366" height="723" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27891654" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5816794" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -183,15 +182,30 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/modulo12/phpAvancado/aula20/index.php">
+    <entry file="file://$PROJECT_DIR$/modulo12/phpAvancado/aula21/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1530148635230" expanded="true" signature="767:780" ph="SELECT * FRO... " />
-            <marker date="1530148635230" expanded="true" signature="767:824" ph="SELECT * FRO... usuarios" />
-            <marker date="1530148635230" expanded="true" signature="767:840" ph="SELECT * FRO... usuarios" />
+            <marker date="1530150450020" expanded="true" signature="615:637" ph="SELECT * FRO... usuarios" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modulo12/phpAvancado/aula21/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1530150450020" expanded="true" signature="615:637" ph="SELECT * FRO... usuarios" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modulo12/phpAvancado/aula20/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -239,12 +253,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/modulo12/phpAvancado/aula20/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
+        <state relative-caret-position="163">
           <caret line="39" column="26" lean-forward="false" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modulo12/phpAvancado/aula21/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding>
-            <marker date="1530148635230" expanded="true" signature="767:780" ph="SELECT * FRO... " />
-            <marker date="1530148635230" expanded="true" signature="767:824" ph="SELECT * FRO... usuarios" />
-            <marker date="1530148635230" expanded="true" signature="767:840" ph="SELECT * FRO... usuarios" />
+            <marker date="1530150450020" expanded="true" signature="615:637" ph="SELECT * FRO... usuarios" />
           </folding>
         </state>
       </provider>
