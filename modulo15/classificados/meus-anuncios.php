@@ -8,8 +8,6 @@ if(empty($_SESSION['cLogin'])){
     <?php
     exit;
 }
-
-
 ?>
 
 <!DOCTYPE html>
