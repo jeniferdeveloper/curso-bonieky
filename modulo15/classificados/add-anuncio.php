@@ -1,6 +1,7 @@
 <?php 
 require 'pages/header.php'; 
 require 'classes/anuncios.class.php'; 
+$anuncio = new Anuncios();
 
 //se a sessao cLogin esta vazia entao redirecione pr login
 if(empty($_SESSION['cLogin'])){
@@ -9,8 +10,6 @@ if(empty($_SESSION['cLogin'])){
     <?php
     exit;
 }
-
-$anuncio = new Anuncios();
 
 if(isset($_POST['titulo']) && !empty($_POST['titulo'])){
     $titulo = addslashes($_POST['titulo']);

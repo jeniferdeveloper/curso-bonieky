@@ -42,15 +42,27 @@ if(empty($_SESSION['cLogin'])){
         foreach($anuncios as $anuncio):
         ?>
         <tr>
-            <td><img src="assets/images/anuncios/<?php echo $anuncio['url']; ?>" border="0"></td>
+            <td>
+                <?php  
+                //se $anuncio['url] estiver preenchido coloque a imagem 
+                 if(!empty($anuncio['url'])): ?>
+                <img src="assets/images/anuncios/<?php echo $anuncio['url']; ?>" height="50" border="0">
+                <?php else: 
+                //caso contrario coloque a foto padrão
+                ?> 
+                <img src="assets/images/default.jpg" height="50" border="0">
+                <?php endif; ?>
+            </td>
             <td><?php echo $anuncio['titulo']; ?></td>
             <td>R$ <?php echo number_format($anuncio['valor'], 2); ?></td>
-            <td></td>
+            <td>
+                <a href="editar-anuncio.php?id=<?php echo $anuncio['id']; ?>" class="btn btn-default">Editar</a>
+                <a href="excluir-anuncio.php?id=<?php echo $anuncio['id']; ?>" class="btn btn-danger">Excluir</a>
+            </td>
         </tr>
         <?php endforeach; ?>
     </table>
 </div> 
-
 </body>
 </html>
 
